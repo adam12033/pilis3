@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:16px;
+}
+body{
+    background: rgb(204, 204,204);
+}
+.container{
+    background: white;
+    margin:0 auto;
+    max-width: 800px;
+}
+.header{
+    background: url(../Img/logo3.jpg) no-repeat;
+    background-size: contain;
+    height: 170px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 160px;
+}
+.sidebar{
+    width: 23.5%;
+    float: right;
+    background: white;
+}
+.content{
+    float: left;
+    background: white;
+    width: 70%;
+}
+.nyuszi{
+    background: white;
+}
+.nyuszi::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+.footer{
+    text-align: center;
+    background: 	#d6995c;
+    color: white;
+    padding-bottom: 30px;
+}
+.block{
+    padding: 0 0 50px 10px;
+}
+.block h3{
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: 	#C8C8C8;;
+}
+.block ul{
+    list-style-type: none;
+    text-align: center;
+}
+.block ul li a{
+    padding: 3px 0 3px 0;
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+}
+.block ul li a:hover{
+    color: white;
+}
+.content{
+    padding: 0px 0px 10px 10px;
+
+}
+.content p{
+    text-align: justify;
+    line-height: 1.2;
+    color: black;
+    
+}
+.content .news h2{
+    background: #995c00;
+    color: white;
+    padding: 0px 10px;
+    font-family: sans-serif;
+    
+}
+.news{
+    margin-bottom: 20px;
+}
+.news p img{
+    float: left;
+    padding: 0 10px 5px 0;
+}
